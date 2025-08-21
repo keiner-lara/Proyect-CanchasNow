@@ -1,5 +1,5 @@
-CREATE DATABASE CanchasYA;
-USE CanchasYA;
+CREATE DATABASE CanchasNow;
+USE CanchasNow;
 
 CREATE TABLE users (
     user_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -57,3 +57,4 @@ CREATE TABLE reservations (
     FOREIGN KEY (field_id) REFERENCES fields(field_id),
     FOREIGN KEY (schedule_id) REFERENCES schedules(schedule_id)
 );
+--
